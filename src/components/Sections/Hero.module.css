@@ -1,6 +1,6 @@
 /* Hero.module.css */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #353353;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -69,12 +69,12 @@
 }
 
 .typewriter {
-  color: #ffd700;
+  color: #FF4C60;
 }
 
 .cursor {
   animation: blink 1s infinite;
-  color: #ffd700;
+  color: #FF4C60;
 }
 
 @keyframes blink {
@@ -129,6 +129,18 @@
   animation: bounce 2s infinite;
 }
 
+.profilePhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profilePhoto:hover {
+  transform: scale(1.05);
+}
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
   40% { transform: translateY(-10px); }
@@ -147,7 +159,7 @@
 .decoration1, .decoration2, .decoration3 {
   position: absolute;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 76, 96, 0.2);
   backdrop-filter: blur(5px);
 }
 
@@ -265,5 +277,10 @@
   
   .buttons {
     justify-content: center;
+  }
+  
+  .scrollIndicator {
+    position: absolute;
+    bottom: -3.7rem;
   }
 }

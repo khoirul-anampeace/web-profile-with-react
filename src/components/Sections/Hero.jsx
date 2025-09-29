@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Hero.module.css';
 import Button from '../UI/Button';
+import imageProfile from '../../assets/img/profile2.jpg'; 
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const titles = ['Web Developer', 'Full-Stack Developer', 'React Developer', 'UI/UX Enthusiast'];
+  const titles = ['React JS Developer', 'React Native Developer'];
 
   useEffect(() => {
     const current = titles[currentIndex];
@@ -51,7 +52,7 @@ const Hero = () => {
         <div className={styles.content}>
           <div className={styles.textContent}>
             <div className={styles.greeting}>Hello, I'm</div>
-            <h1 className={styles.name}>Your Name</h1>
+            <h1 className={styles.name}>Khoirul Anam</h1>
             <h2 className={styles.title}>
               I am a <span className={styles.typewriter}>{displayText}</span>
               <span className={styles.cursor}>|</span>
@@ -73,7 +74,11 @@ const Hero = () => {
           <div className={styles.imageContent}>
             <div className={styles.profileImage}>
               <div className={styles.imagePlaceholder}>
-                <div className={styles.avatar}>👨‍💻</div>
+                <img 
+                  src={imageProfile} 
+                  alt="Khoirul Anam Profile"
+                  className={styles.profilePhoto}
+                />
               </div>
               <div className={styles.imageDecorations}>
                 <div className={styles.decoration1}></div>

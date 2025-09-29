@@ -9,7 +9,7 @@ const Experience = () => {
       position: 'Full-Stack Web Developer',
       company: 'Onlenkan.com',
       type: 'Fulltime',
-      location: 'Remote',
+      location: 'Hybrid (Probolinggo & Remote)',
       description: [
         'Joining the onlenkan project division, responsible for working on client-ordered projects',
         'Building custom websites from scratch according to client requests',

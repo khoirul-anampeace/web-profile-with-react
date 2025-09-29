@@ -78,30 +78,30 @@ const Footer = () => {
           <div className={styles.footerSection}>
             <h4 className={styles.sectionTitle}>Get In Touch</h4>
             <div className={styles.contactInfo}>
-              <a href="mailto:hello@example.com" className={styles.contactLink}>
-                📧 hello@example.com
+              <a href="khoirul130203@gmail.com" className={styles.contactLink}>
+                📧 khoirul130203@gmail.com
               </a>
               <a href="tel:+62123456789" className={styles.contactLink}>
-                📱 +62 123 456 789
+                📱 +62 8222 8008 055
               </a>
               <span className={styles.contactLink}>
-                📍 Probolinggo, Indonesia
+                📍 Jember, Indonesia
               </span>
             </div>
             
             <div className={styles.availability}>
               <span className={styles.statusIndicator}></span>
-              Available for freelance work
+              Not Available for freelance work
             </div>
           </div>
         </div>
         
         <div className={styles.footerBottom}>
           <div className={styles.copyright}>
-            <p>&copy; {currentYear} Portfolio. All rights reserved.</p>
-            <p className={styles.madeWith}>
+            <p>&copy; {currentYear} K. Anam Web Profile. All rights reserved.</p>
+            {/* <p className={styles.madeWith}>
               Made with ❤️ using React.js
-            </p>
+            </p> */}
           </div>
           
           <button 

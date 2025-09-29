@@ -46,20 +46,20 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email',
-      value: 'hello@example.com',
-      link: 'mailto:hello@example.com'
+      value: 'khoirul130203@gmail.com',
+      link: 'mailto:khoirul130203@gmail.com'
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+62 123 456 789',
-      link: 'tel:+62123456789'
+      value: '+62 8222 8008 055',
+      link: 'tel:+6282228008055'
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'Probolinggo, Indonesia',
-      link: 'https://maps.google.com'
+      value: 'Jember, Indonesia',
+      link: 'https://maps.app.goo.gl/fFNP2ATjMb3TBaft5'
     }
   ];
 

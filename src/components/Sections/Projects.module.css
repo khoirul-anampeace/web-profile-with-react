@@ -15,7 +15,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
-  color: #1e293b;
+  color: #353353;
   position: relative;
 }
 
@@ -27,7 +27,7 @@
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .filterSection {
@@ -52,11 +52,11 @@
 
 .filterButton:hover {
   background: #e2e8f0;
-  color: #1e293b;
+  color: #353353;
 }
 
 .filterButton.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
   color: white;
   border-color: transparent;
 }
@@ -90,6 +90,17 @@
   margin-bottom: 1rem;
 }
 
+.projectImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.projectCard:hover .projectImg {
+  transform: scale(1.05);
+}
+
 .projectIcon {
   font-size: 3rem;
   transition: transform 0.3s ease;
@@ -105,7 +116,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(102, 126, 234, 0.9);
+  background: rgba(102, 126, 234, 0.226);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,6 +138,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  padding-inline: 1.5rem;
 }
 
 .statusBadge {
@@ -164,13 +176,13 @@
 .projectTitle {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 0.8rem;
   transition: color 0.3s ease;
 }
 
 .projectCard:hover .projectTitle {
-  color: #667eea;
+  color: #FF4C60;
 }
 
 .projectDescription {
@@ -198,7 +210,7 @@
 }
 
 .techTag:hover {
-  background: #667eea;
+  background: #FF4C60;
   color: white;
   transform: translateY(-1px);
 }

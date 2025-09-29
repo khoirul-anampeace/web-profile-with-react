@@ -17,7 +17,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 0 0 3px rgba(255, 76, 96, 0.3);
 }
 
 .content {
@@ -47,33 +47,33 @@
 
 /* Variants */
 .primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
   color: white;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 76, 96, 0.3);
 }
 
 .primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 76, 96, 0.4);
 }
 
 .primary:active {
   transform: translateY(0);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 76, 96, 0.3);
 }
 
 .outline {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #FF4C60;
+  border: 2px solid #FF4C60;
   box-shadow: none;
 }
 
 .outline:hover {
-  background: #667eea;
+  background: #FF4C60;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 25px rgba(255, 76, 96, 0.3);
 }
 
 .outline:active {
@@ -101,7 +101,7 @@
 
 .ghost:hover {
   background: #f1f5f9;
-  color: #1e293b;
+  color: #353353;
 }
 
 /* Sizes */
@@ -135,10 +135,10 @@
   box-shadow: none;
 }
 
-/* Hero specific styles (for buttons on gradient background) */
+/* Hero specific styles (for buttons on dark background) */
 .heroButton {
   background: rgba(255, 255, 255, 0.9);
-  color: #1e293b;
+  color: #353353;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }

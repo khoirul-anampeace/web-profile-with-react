@@ -42,19 +42,19 @@
 }
 
 .flat.hoverable:hover {
-  border-color: #667eea;
-  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.1);
+  border-color: #FF4C60;
+  box-shadow: 0 5px 20px rgba(255, 76, 96, 0.1);
 }
 
 .gradient {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #353353;
   color: white;
   border: none;
 }
 
 .gradient.hoverable:hover {
   transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 15px 40px rgba(53, 51, 83, 0.3);
 }
 
 /* Responsive */

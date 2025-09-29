@@ -15,7 +15,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
-  color: #1e293b;
+  color: #353353;
   position: relative;
 }
 
@@ -27,7 +27,7 @@
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .educationSection {
@@ -37,7 +37,7 @@
 .subsectionTitle {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 2.5rem;
   text-align: center;
   position: relative;
@@ -51,7 +51,7 @@
   transform: translateX(-50%);
   width: 40px;
   height: 2px;
-  background: #667eea;
+  background: #FF4C60;
 }
 
 .educationGrid {
@@ -78,7 +78,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .educationCard:hover {
@@ -98,8 +98,8 @@
 .period {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #667eea;
-  background: rgba(102, 126, 234, 0.1);
+  color: #FF4C60;
+  background: rgba(255, 76, 96, 0.1);
   padding: 0.4rem 1rem;
   border-radius: 20px;
 }
@@ -116,14 +116,14 @@
 .degree {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 0.5rem;
 }
 
 .major {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #667eea;
+  color: #FF4C60;
   margin-bottom: 0.8rem;
 }
 
@@ -155,7 +155,7 @@
 .skills h6 {
   font-size: 1rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 0.8rem;
 }
 
@@ -198,7 +198,7 @@
 }
 
 .skillTag:hover {
-  background: #667eea;
+  background: #FF4C60;
   color: white;
   transform: translateY(-1px);
 }
@@ -227,7 +227,7 @@
 .certificationCard:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #353353;
   color: white;
 }
 
@@ -244,7 +244,7 @@
 .certName {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 0.5rem;
   transition: color 0.3s ease;
 }
@@ -266,8 +266,8 @@
 
 .certYear {
   display: inline-block;
-  background: rgba(102, 126, 234, 0.1);
-  color: #667eea;
+  background: rgba(255, 76, 96, 0.1);
+  color: #FF4C60;
   padding: 0.3rem 0.8rem;
   border-radius: 12px;
   font-size: 0.8rem;

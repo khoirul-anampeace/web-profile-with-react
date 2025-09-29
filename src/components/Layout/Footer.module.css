@@ -1,6 +1,6 @@
 /* Footer.module.css */
 .footer {
-  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  background: #353353;
   color: white;
   padding: 3rem 0 1rem;
   position: relative;
@@ -43,10 +43,7 @@
 .brandName {
   font-size: 1.8rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #FF4C60;
   margin-bottom: 0.8rem;
 }
 
@@ -78,9 +75,9 @@
 }
 
 .socialLink:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: #FF4C60;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(255, 76, 96, 0.3);
 }
 
 .sectionTitle {
@@ -98,7 +95,7 @@
   left: 0;
   width: 30px;
   height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .footerNav {
@@ -119,7 +116,7 @@
 }
 
 .footerLink:hover {
-  color: #667eea;
+  color: #FF4C60;
   transform: translateX(5px);
 }
 
@@ -141,7 +138,7 @@
 }
 
 .contactLink:hover {
-  color: #667eea;
+  color: #FF4C60;
 }
 
 .availability {
@@ -150,16 +147,16 @@
   gap: 0.5rem;
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.8);
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(255, 76, 96, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  border: 1px solid rgba(16, 185, 129, 0.2);
+  border: 1px solid rgba(255, 76, 96, 0.2);
 }
 
 .statusIndicator {
   width: 8px;
   height: 8px;
-  background: #10b981;
+  background: #FF4C60;
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
@@ -198,7 +195,7 @@
 .scrollToTop {
   width: 45px;
   height: 45px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
   border: none;
   border-radius: 50%;
   color: white;
@@ -206,12 +203,12 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 76, 96, 0.3);
 }
 
 .scrollToTop:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(255, 76, 96, 0.4);
 }
 
 .scrollToTop:active {

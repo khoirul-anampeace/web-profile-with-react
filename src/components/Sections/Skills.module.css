@@ -15,7 +15,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
-  color: #1e293b;
+  color: #353353;
   position: relative;
 }
 
@@ -27,7 +27,7 @@
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .skillsGrid {
@@ -54,7 +54,7 @@
 .categoryTitle {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #353353;
   margin-bottom: 2rem;
   text-align: center;
   position: relative;
@@ -68,7 +68,7 @@
   transform: translateX(-50%);
   width: 40px;
   height: 2px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
 }
 
 .skillsList {
@@ -95,14 +95,14 @@
 
 .skillName {
   font-weight: 500;
-  color: #1e293b;
+  color: #353353;
   flex: 1;
 }
 
 .skillPercent {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #667eea;
+  color: #FF4C60;
   background: #f1f5f9;
   padding: 0.2rem 0.8rem;
   border-radius: 12px;
@@ -118,7 +118,7 @@
 
 .skillProgress {
   height: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #FF4C60;
   border-radius: 4px;
   width: var(--skill-width);
   transition: width 2s ease-out 0.5s;
@@ -166,12 +166,8 @@
 .infoCard h4 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #1e293b;
+  color: #FF4C60;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .infoCard p {

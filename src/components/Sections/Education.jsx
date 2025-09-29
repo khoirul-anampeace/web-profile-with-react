@@ -10,11 +10,10 @@ const Education = () => {
       major: 'Informatics Management',
       institution: 'Politeknik Negeri Jember',
       location: 'Jl. Mastrip, Krajan Timur, Sumbersari, Kec. Sumbersari, Kabupaten Jember, Jawa Timur',
-      gpa: '3.75',
+      gpa: '3.92/4',
       achievements: [
         'Graduate with Cum Laude honors',
         'Active member of Programming Club',
-        'Participated in National Web Development Competition',
         'Completed final project on E-commerce Web Application'
       ],
       skills: ['Web Development', 'Database Management', 'System Analysis', 'Project Management']
@@ -26,10 +25,9 @@ const Education = () => {
       major: 'Software Engineering',
       institution: 'SMK Negeri 2 Kraksaan',
       location: 'JL. DIPONEGORO NO.5, Sidomukti, Kec. Kraksaan, Kab. Probolinggo Prov. Jawa Timur',
-      gpa: '3.85',
+      gpa: '85/100',
       achievements: [
         'Best Graduate in Software Engineering Department',
-        'Won 1st place in Regional Programming Competition',
         'Leadership role in Student Organization',
         'Completed internship program with excellent performance'
       ],

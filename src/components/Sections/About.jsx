@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './About.module.css';
 import Button from '../UI/Button';
+import imageProfile from '../../assets/img/avatar2.png'; 
 
 const About = () => {
   const stats = [
@@ -24,7 +25,11 @@ const About = () => {
           <div className={styles.imageSection}>
             <div className={styles.profileImage}>
               <div className={styles.imagePlaceholder}>
-                <div className={styles.avatar}>👨‍💻</div>
+              <img 
+                                src={imageProfile} 
+                                alt="Khoirul Anam Profile"
+                                className={styles.profilePhoto}
+                              />
               </div>
               <div className={styles.imageBackground}></div>
             </div>
