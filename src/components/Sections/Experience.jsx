@@ -52,24 +52,25 @@ const Experience = () => {
       ],
       technologies: ['PHP', 'MySQL', 'jQuery', 'HTML/CSS', 'Bootstrap'],
       current: false
-    },
-    {
-      id: 4,
-      period: 'Aug - Dec 2019',
-      position: 'Web Developer',
-      company: 'Onlenkan.com',
-      type: 'Internship',
-      location: 'Probolinggo, Indonesia',
-      description: [
-        'Learned UI/UX design principles and best practices',
-        'Developed a simple e-commerce website with basic functionality',
-        'Created promotional videos using After Effects',
-        'Participated in UI/UX events and workshops organized by company',
-        'Attended weekly internal exhibitions to practice public speaking skills'
-      ],
-      technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'After Effects'],
-      current: false
     }
+    // ,
+    // {
+    //   id: 4,
+    //   period: 'Aug - Dec 2019',
+    //   position: 'Web Developer',
+    //   company: 'Onlenkan.com',
+    //   type: 'Internship',
+    //   location: 'Probolinggo, Indonesia',
+    //   description: [
+    //     'Learned UI/UX design principles and best practices',
+    //     'Developed a simple e-commerce website with basic functionality',
+    //     'Created promotional videos using After Effects',
+    //     'Participated in UI/UX events and workshops organized by company',
+    //     'Attended weekly internal exhibitions to practice public speaking skills'
+    //   ],
+    //   technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'After Effects'],
+    //   current: false
+    // }
   ];
 
   return (
